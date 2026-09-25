@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Unreal Engine Absolute Blueprint Organizer",
+	"Description": "Organizes a Blueprint with one shortcut: layered graph layout, comment boxes per section, hygiene and member sorting, all in one undoable transaction.",
+	"Category": "Editor",
+	"CreatedBy": "MNZ Sistemas",
+	"CreatedByURL": "https://ueabo.mnzsistemas.com",
+	"DocsURL": "https://ueabo.mnzsistemas.com",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:mnzsistemas@gmail.com",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UeaboCore",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64" ]
+		},
+		{
+			"Name": "UeaboEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [ "Win64" ]
+		}
+	]
+}
